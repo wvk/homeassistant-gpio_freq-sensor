@@ -1,0 +1,5 @@
+sensors:
+  - platform: gpio_freq
+    scan_interval: 0.25
+    ports:
+      27: Motor Frequency

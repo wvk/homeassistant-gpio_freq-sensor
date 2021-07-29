@@ -1,0 +1,10 @@
+{
+  "domain": "gpio_freq",
+  "name": "GIPO frequency",
+  "documentation": "This is a Homeassistant sensor for reading the frequency of input signals on Raspberry Pi GIPO pins.",
+  "dependencies": ["rpi_gpio"],
+  "codeowners": ["Willem van Kerkhof <wvk@consolving.de>"],
+  "requirements": [],
+  "iot_class": "local_polling",
+  "version": "0.1.0"
+}
